@@ -1,6 +1,5 @@
-# Created by anastasiiatetiura at 3/26/23
-Feature: # Enter feature name here
-  # Enter feature description here
+Feature: Verify color selector
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+  Scenario: User can choose color of a product
+    Given Open Amazon product B07JN9HY65 page
+    Then User can click  color options
