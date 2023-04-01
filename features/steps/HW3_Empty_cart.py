@@ -12,9 +12,9 @@ def open_amazon(context):
 @when('Click on Cart icon')
 def click_orders_button(context):
     #context.driver.find_element(By.CSS_SELECTOR,'#nav-cart').click()
-    context.app.header.click_orders()
+    context.app.header.click_cart()
 
 
-@then('Text {expected_result} is displayed')
+@then('Text "{expected_result}" is displayed')
 def verify_empty_cart(context, expected_result):
     context.app.empty.verify_empty_cart(expected_result)

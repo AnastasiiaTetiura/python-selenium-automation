@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 from classwork_7.base_page import Page
+from time import sleep
 
 
 class EmptyCart(Page):
